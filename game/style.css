@@ -1,0 +1,25 @@
+/* Sizzle Rush — page chrome around the game canvas. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #17100a; }
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+.stage { text-align: center; padding: 12px; }
+canvas {
+  display: block;
+  width: min(1280px, 96vw);
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.55);
+  background: #e9d8b8;
+  cursor: pointer;
+}
+.help {
+  color: #c9b18a;
+  font-size: 14px;
+  margin: 12px 0 0;
+}
